@@ -12,6 +12,7 @@ loaderVersion = "[43,)" #mandatory This is typically bumped every Minecraft vers
 license = "All Rights Reserved"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="http://my.issue.tracker/" #optional
+
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
@@ -44,6 +45,7 @@ authors = "Example" #optional
 description = '''
 Example addon description.
 '''
+
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.exampleaddon]] #optional
 # the modid of the dependency
@@ -56,6 +58,7 @@ versionRange = "[43,)" #mandatory
 ordering = "NONE"
 # Side this dependency is applied on - BOTH, CLIENT or SERVER
 side = "BOTH"
+
 # Here's another dependency
 [[dependencies.exampleaddon]]
 modId = "minecraft"
@@ -63,4 +66,13 @@ mandatory = true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
 versionRange = "[1.19.2,1.20)"
 ordering = "NONE"
+side = "BOTH"
+
+# Here's another dependency
+[[dependencies.exampleaddon]]
+modId = "devices"
+mandatory = true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "[0.5,0.6)"
+ordering = "BEFORE"
 side = "BOTH"

@@ -8,10 +8,14 @@ public class ExampleAddon {
     public static final String MOD_ID = "exampleaddon";
 
     public static void init() {
-        ApplicationManager.registerApplication(ExampleAddon.res("example"), () -> ExampleApp::new, false);
+
     }
 
     private static ResourceLocation res(String path) {
         return new ResourceLocation(MOD_ID, path);
+    }
+
+    public static void registerApps() {
+        ApplicationManager.registerApplication(ExampleAddon.res("example"), () -> ExampleApp::new, false);
     }
 }

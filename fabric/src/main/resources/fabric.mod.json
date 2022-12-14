@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "com.example.exampleaddon.fabric.ExampleAddonFabric"
+    ],
+    "devices:application_registration": [
+      "com.example.exampleaddon.fabric.ExampleAddonFabric"
     ]
   },
   "mixins": [
