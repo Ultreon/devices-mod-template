@@ -16,6 +16,57 @@ public class ExampleAddon {
     }
 
     public static void registerApps() {
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
+        System.out.println("MOD_ID = " + MOD_ID);
         ApplicationManager.registerApplication(ExampleAddon.res("example"), () -> ExampleApp::new, false);
     }
 }
